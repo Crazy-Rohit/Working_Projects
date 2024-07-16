@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Homepage Clone | CodingNepal</title>
+  <!-- Linking Unicons For Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="sidebar-hidden">
+  <div class="container">
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="images/youtube.png" alt="Logo" class="logo-image">
+            <h2 class="logo-text">YouTube<sup style="font-size: 0.5rem; font-style: normal;">IN</sup></h2>
+          </a>
+        </div>
+        
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="search" placeholder="Search" class="search-input" required>
+            <button class="nav-button search-button">
+              <i class="uil uil-search"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="uil uil-microphone"></i>
+          </button>
+        </div>
+        
+        <div class="nav-section nav-right">
+          <button class="nav-button search-button">
+            <i class="uil uil-search"></i>
+          </button>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
+          </button>
+          <img src="images/User.png" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Main Layout -->
+    <main class="main-layout">
+      <div class="screen-overlay"></div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="images/youtube.png" alt="Logo" class="logo-image">
+            <h2 class="logo-text">YouTube</h2>
+          </a>
+        </div>
+  
+        <div class="links-container">
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-estate"></i> Home
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-video"></i> Shorts
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-tv-retro"></i> Subscriptions
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">You</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-user-square"></i> Your channel
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-history"></i> History
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-clock"></i> Watch later
+            </a>
+          </div>
+          <div class="section-separator"></div>
+          
+          <div class="link-section">
+            <h4 class="section-title">Explore</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-fire"></i> Trending
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-music"></i> Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-basketball"></i> Gaming
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-trophy"></i> Sports
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">More from YouTube</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-shield-plus"></i> YouTube Plus
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-headphones-alt"></i> YouTube Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-airplay"></i> YouTube Kids
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-setting"></i> Settings
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-file-medical-alt"></i> Report
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-question-circle"></i> Help
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-exclamation-triangle"></i> Feedback
+            </a>
+          </div>
+        </div>
+      </aside>
+  
+      <div class="content-wrapper">
+        <!-- Category List -->
+        <div class="category-list">
+          <button class="category-button active">All</button>
+          <button class="category-button">Website</button>
+          <button class="category-button">Music</button>
+          <button class="category-button">Gaming</button>
+          <button class="category-button">Node.js</button>
+          <button class="category-button">JavaScript</button>
+          <button class="category-button">React.js</button>
+          <button class="category-button">TypeScript</button>
+          <button class="category-button">Coding</button>
+          <button class="category-button">Next.js</button>
+          <button class="category-button">Data analysis</button>
+          <button class="category-button">Web design</button>
+          <button class="category-button">HTML</button>
+          <button class="category-button">Tailwind</button>
+          <button class="category-button">CSS</button>
+          <button class="category-button">Express.js</button>
+        </div>
+        
+        <!-- Video List -->
+        <div class="video-list">
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/NnesVjywB8k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlA8Ly9G5l6GpkThuARV1OVjA6dQ" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.ggpht.com/2E3cE0aok-jcITG8BAFIRZJIVUQVU3_QfkCCrkuMEJyIQsjDpG6LyWdHk1Zs5F2u1_bopxFs=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Bank Customer Churn Model | Real World Example | Project | Hands-On | Machine Learning | Python</h2>
+                <p class="channel-name">YBI Foundation</p>
+                <p class="views">27K Views • 4 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/H7MCOGMRJXY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQox4tRlZpErvQDUMfpml0kie-RA" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:16:50</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/-k5gn4IIgDqOrCeWPC28UH5HES-rQqV60U6ssag-1ysqH4rSJGHEzR-EYwpEA4C8j16Axi8iYQ=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Master ReactJS in 1 Hour | Build a Real Estate Project🏡| Complete Beginner Tutorial | @yashhhtalks</h2>
+                <p class="channel-name">Bharat Intern</p>
+                <p class="views">1.7K Views • 5 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/pkzMzQAUlWc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKfzsqjzbeaBQcRpE5QIb849KajQ" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:29:22</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/IJZZhQ_eK2IYU5_j99dgsOelYLgp-TSJH9Y1D-U8TjUrHSCKmyP5WDameKMJCH1rqadKPqV15Q=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Day 1 | Win FREE Postman Premium Swags - Postman API Fundamentals Student Expert Certification</h2>
+                <p class="channel-name">LetsUpgrade</p>
+                <p class="views">8.4K Views • 3 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/jD2InfX_96I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBogt1B8SHOldFfZLoCtj_kaDDKxA" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:10:07</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.ggpht.com/p6qCeZsxT97whgftwJHj_27XuYGi2rTW0hapm1qmwVWXUb8IlUY2LXj5-D0WE2RB_mlPMTkrig=s176-c-k-c0x00ffffff-no-rj-mo" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Ch 3 | Basic Maths ( Part 1 ) | Mathematical Tool | Differentiation & Integration | JEE | NEET | 11</h2>
+                <p class="channel-name">Physics Wallah</p>
+                <p class="views">4.8M Views • 3 years ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/irqbmMNs2Bo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCO28yaX6JQMXXf0xPsY2wV0Gmdfg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">10:32:07</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.ggpht.com/00yIYVKjmFvR7sFZXmP5aMq1u0P7ZcLfnDW27A7zRD1hTqcWLwYn0-o_5rGkK2eKfCf43ueE7Q=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">C Language Tutorial for Beginners (with Notes & Practice Questions)</h2>
+                <p class="channel-name">Apna College</p>
+                <p class="views">30M Views • 4 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/Jy35YEgcdFM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMZ7xVws_ueAzBBuZMTFtvps-SdQ" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:33:47</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/IJZZhQ_eK2IYU5_j99dgsOelYLgp-TSJH9Y1D-U8TjUrHSCKmyP5WDameKMJCH1rqadKPqV15Q=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Day 1 | Introduction to ChatGPT and Natural Language Processing
+                </h2>
+                <p class="channel-name">LetsUpgrade</p>
+                <p class="views">6.3K Views • 3 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/DLs1X9T1GcY/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">9:27</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Create Text Typing Effect in HTML CSS & Vanilla JavaScript</h2>
+                <p class="channel-name">CodingNepal</p>
+                <p class="views">17K Views • 10 months ago</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/o8kWn-DL8aw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDajyPwh6ZO8dzCwXpGt-lr95mN5Q" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:01:05</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/IJZZhQ_eK2IYU5_j99dgsOelYLgp-TSJH9Y1D-U8TjUrHSCKmyP5WDameKMJCH1rqadKPqV15Q=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Day 3 | Starting with CSS
+                </h2>
+                <p class="channel-name">LetsUpgrade</p>
+                <p class="views">6.3K Views • 11 days ago</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/-SMwhGW1Yks/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWiNyP9agIQDhvlheeK1mF4B0OYg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:10:07</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.ggpht.com/p6qCeZsxT97whgftwJHj_27XuYGi2rTW0hapm1qmwVWXUb8IlUY2LXj5-D0WE2RB_mlPMTkrig=s176-c-k-c0x00ffffff-no-rj-mo" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Yakeen 3.0 2025 PHYSICAL CHEMISTRY 1st Class FREE 🔥 NEET 2025 Dropper</h2>
+                <p class="channel-name">Physics Wallah</p>
+                <p class="views">142K Views • 7 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/20Qb7pNMv-4/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">12:24</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/uITV5E7auiZMDD_BwhVRJMHXXY6qQc0GqBgVyP5LWYTmeRlUP2Dc945UlIbODvztd96ReOts=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Make A Flipping Card UI Design in HTML & CSS</h2>
+                <p class="channel-name">CodingLab</p>
+                <p class="views">85K Views • 2 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/B01hpMVDxqA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqN4jl4s7IzAFcLe4QR-ebsEyeUg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">43:02</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.ggpht.com/-k5gn4IIgDqOrCeWPC28UH5HES-rQqV60U6ssag-1ysqH4rSJGHEzR-EYwpEA4C8j16Axi8iYQ=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Best Video on Titanic Survival Prediction🔥| Machine Learning Project | Python | @yashhhtalks | 2024</h2>
+                <p class="channel-name">Bharat Intern</p>
+                <p class="views">5.3K Views • 4 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/cHkN82X3KNU/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">11:13</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/uITV5E7auiZMDD_BwhVRJMHXXY6qQc0GqBgVyP5LWYTmeRlUP2Dc945UlIbODvztd96ReOts=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Build A Responsive Calculator in HTML CSS & JavaScript</h2>
+                <p class="channel-name">CodingLab</p>
+                <p class="views">30K Views • 2 years ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/0_Lwi5ucGwM/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">39:43</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Build A Currency Converter using ReactJS</h2>
+                <p class="channel-name">CodingNepal</p>
+                <p class="views">7.2K • 2 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/YjjCuRJGWpg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDzEn3sri2d0LbeZJvcnJf3ajKHrw" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:37:43</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.ggpht.com/-k5gn4IIgDqOrCeWPC28UH5HES-rQqV60U6ssag-1ysqH4rSJGHEzR-EYwpEA4C8j16Axi8iYQ=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">🔥Money Tracker WebApp Project Using NodeJS & MongoDB | Full-Stack | 2024 | @CodeKing6 | 🚀Source Code</h2>
+                <p class="channel-name">Bharat Intern</p>
+                <p class="views">4.5M Views • 3 year ago</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
